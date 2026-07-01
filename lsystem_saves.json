@@ -1,0 +1,166 @@
+{
+  "Lightning v1": {
+    "mode": "prob",
+    "axiom": "F",
+    "angle": 15.0,
+    "iters": 182,
+    "max_iter": 1200,
+    "rotation": 197.4757281553398,
+    "rules": [
+      [
+        "F",
+        "F-F+F[+F]-F+F[-F]+F-F"
+      ]
+    ],
+    "line_color": "#f0fff8",
+    "bg_color": "#242a3d",
+    "grad_start": "#744320",
+    "grad_end": "#76e565",
+    "gradient": false,
+    "shrink": 1.0,
+    "start_width": 8.511627906976743,
+    "thin_rate": 0.691358024691358,
+    "seed": 402260,
+    "dist_points": [
+      [
+        0.0,
+        0.29310344827586204
+      ],
+      [
+        0.3474320241691843,
+        0.8448275862068966
+      ],
+      [
+        0.5015105740181269,
+        0.28448275862068967
+      ],
+      [
+        0.6586102719033232,
+        0.8793103448275862
+      ],
+      [
+        1.0,
+        0.2413793103448276
+      ]
+    ]
+  },
+  "River v1": {
+    "mode": "prob",
+    "axiom": "F",
+    "angle": 40.0,
+    "iters": 1012,
+    "max_iter": 1200,
+    "rotation": 0.0,
+    "rules": [
+      [
+        "F",
+        "F-F+F"
+      ]
+    ],
+    "line_color": "#6dcdff",
+    "bg_color": "#183c22",
+    "grad_start": "#744320",
+    "grad_end": "#76e565",
+    "gradient": false,
+    "shrink": 1.0,
+    "start_width": 1.0,
+    "thin_rate": 1.0,
+    "seed": 379309,
+    "dist_points": [
+      [
+        0.0,
+        0.47413793103448276
+      ],
+      [
+        1.0,
+        0.49137931034482757
+      ]
+    ]
+  },
+  "Tree v2 Monopodial": {
+    "mode": "prob",
+    "axiom": "F",
+    "angle": 35.0,
+    "iters": 1200,
+    "max_iter": 1200,
+    "rotation": 0.0,
+    "rules": [
+      [
+        "F",
+        "G[--R][++L]F"
+      ],
+      [
+        "L",
+        "T[-TT][+T]L"
+      ],
+      [
+        "T",
+        "T"
+      ],
+      [
+        "R",
+        "T[+TT][-T]R"
+      ]
+    ],
+    "line_color": "#7ddf7d",
+    "bg_color": "#101014",
+    "grad_start": "#744320",
+    "grad_end": "#2fe54e",
+    "gradient": true,
+    "shrink": 0.8569948186528498,
+    "start_width": 20.0,
+    "thin_rate": 0.6481481481481481,
+    "seed": 219623,
+    "dist_points": [
+      [
+        0.0,
+        0.49137931034482757
+      ],
+      [
+        0.23867069486404835,
+        0.05172413793103448
+      ],
+      [
+        0.9637462235649547,
+        0.8793103448275862
+      ],
+      [
+        1.0,
+        0.5
+      ]
+    ]
+  },
+  "Tree v1 Sympodial": {
+    "mode": "prob",
+    "axiom": "F",
+    "angle": 20.0,
+    "iters": 1200,
+    "max_iter": 1200,
+    "rotation": 0.0,
+    "rules": [
+      [
+        "F",
+        "F[-F][+F]"
+      ]
+    ],
+    "line_color": "#7ddf7d",
+    "bg_color": "#101014",
+    "grad_start": "#744320",
+    "grad_end": "#76e565",
+    "gradient": true,
+    "shrink": 0.9098445595854923,
+    "start_width": 17.348837209302324,
+    "thin_rate": 0.7438271604938271,
+    "seed": 935173,
+    "dist_points": [
+      [
+        0.0,
+        0.5
+      ],
+      [
+        1.0,
+        0.5
+      ]
+    ]
+  }
+}
