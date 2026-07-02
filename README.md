@@ -47,13 +47,12 @@ no `pip install` needed.
 
 | Symbol | Action |
 |--------|--------|
-| `F`, `G` | move forward and draw a line |
-| `f` | move forward without drawing |
+| `F`, `G`, any capital letter | move forward and draw a line |
+| `f`, any lowercase letter | move forward without drawing |
 | `+` | turn left by the angle |
 | `-` | turn right by the angle |
 | `[` | push (save current position & heading) |
 | `]` | pop (restore last saved position & heading) |
-| `X`, `Y`, `A`, `B` … | control symbols: no drawing/movement; they only drive the rewrite rules |
 
 ### Example (classic L-system)
 
